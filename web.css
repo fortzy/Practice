@@ -264,4 +264,17 @@ footer div{
         width: 100%;
         margin: 15px;
     }
+    @media screen and (max-width: 370px){
+        header ul li {
+            font-size: 12px;
+        }
+        .productive__text{
+            margin-left: 0;
+        }
+        small{
+            bottom: -25px;
+            font-size: 10px;
+            left: 15px;
+        }
+    }
 }
