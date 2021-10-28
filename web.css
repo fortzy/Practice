@@ -197,3 +197,71 @@ footer div{
 .fabfa-facebook-f{
     padding: 20px;
 }
+@media screen and (max-width: 922px){
+    .contents .content_image{
+        width: 50%;
+    }
+}
+@media screen and (max-width: 950px){
+    .early{
+        width: 80%;
+    }
+    .people{
+        width: 95%;
+        justify-content: space-between;
+    }
+    
+}
+@media screen and (max-width: 870px){
+    .wrapper{
+        width: 85%;
+    }
+}
+@media screen and (max-width: 720px){
+    header{
+        padding: 10px;
+    }
+    header .logo img{
+        width: 50%;
+    }
+    header ul li {
+        margin-right: 8px;
+    }
+    .wrapper .intro, .text__field, .contents .content_image, .productive__text{
+        width: 85%;
+    }
+    .card{
+        width: 100%;
+    }
+    .contents, .people{
+        flex-direction: column;
+    }
+    .items{
+        width: 80%;
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+    form{
+        display: flex;
+        flex-direction: column;
+    }
+    .form, .button{
+        width: 100%;
+        margin-left: 0;
+        margin-top: 10px;
+    }
+    .people{
+        align-items: center;
+        margin-top: 80px;
+    }
+    .quote{
+        left: 40px;
+    }
+    footer{
+        flex-direction: column;
+    }
+    footer div{
+        width: 100%;
+        margin: 15px;
+    }
+}
