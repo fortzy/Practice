@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color:hsl(218, 28%, 13%);
+    color: hsl(0, 0%, 100%);
+}
+header{
+    padding: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+a{
+    text-decoration: none;
+    color: hsl(0, 0%, 100%);
+}
+a:hover{
+    text-decoration: underline;
+}
+ul{
+    list-style: none;
+    display: flex;
+}
+li{
+    margin-right: 20px;
+}
+.wrapper{
+    width: 70%;
+    margin: 60px auto;
+    text-align: center;
+}
+.wrapper .intro{
+    width: 50%;
+}
+.text__field{
+    width: 50%;
+    margin: 10px auto;
+}
+.text__field h2, .text__field p{
+    margin: 20px 0;
+}
+button{
+    border: none;
+    outline: none;
+    background-color: hsl(176, 68%, 64%);
+    color: hsl(0, 0%, 100%);
+    padding: 10px 40px;
+    border-radius: 20px;
+}
+.card{
+    width: 45%;
+    margin: 15px;
+    padding: 10px 20px;
+}
+.card img{
+    margin-bottom: 10px;
+}
+.card h3{
+    margin: 10px 0;
+}
+.wrapper2{
+    display: flex;
+    flex-wrap: wrap;
+}
+.contents{
+    width: 90%;
+    margin: 30px auto;
+    display: flex;
+    align-items: center;
+}
+.productive__text{
+    width: 45%;
+    margin-left: 50px;
+}
+.productive__text h2{
+    padding: 20px 0;
+}
+.productive__text p{
+    padding: 10px 0;
+}
+.productive__text a{
+    padding: 20px 0;
+}
+.people{
+    display: flex;
+    color: rgba(255, 255, 255, 0.89);
+    width: 90%;
+    position: relative;
+    margin: 20px auto;
+}
+.patel{
+    padding: 30px 20px ;
+    width: 40%;
+    margin-left: 20px;
+    background-color: hsl(219, 30%, 18%);
+}
+.items{
+    width: 30%;
+    margin-right: 20px;
+    background-color: hsl(219, 30%, 18%);
+    padding: 30px 15px;
+    z-index: 3;
+}
+.quote{
+    position: absolute;
+    top: -30px;
+}
+.items .boyd span{
+    margin-left: 20px;
+}
+.bruce{
+    padding: 20px;
+    width: 40%;
+    margin-left: 200px;
+    background-color: hsl(219, 30%, 18%);
+}
+.iva{
+    padding: 20px;
+    width: 40%;
+    margin-left: 200px;
+    background-color: hsl(219, 00%, 18%);
+}
+.pic{
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.boyd{
+    padding: 10px 0px;
+    display: flex;
+    align-items: center;
+    width: 90%;
+}
+h4{
+    display: flex;
+    align-items: center;
+    width: 80%;
+}
+.early{
+    width: 60%;
+    margin: 80px auto 20px;
+    background-color: hsl(217, 28%, 15%);
+    justify-content: center;
+    padding: 30px 40px;
+}
+.early h2, .early p{
+    text-align: center;
+}
+.early p{
+    color: rgba(255, 255, 255, 0.521);
+}
+.form{
+    background-color:  hsl(0, 0%, 100%);
+    border: none;
+    outline: none;
+    width: 60%;
+    padding: 15px 30px;
+    border-radius: 20px;
+}
+.button{
+    width: 35%;
+    margin-left: 20px;
+    padding: 15px 10px;
+}
+form{
+    margin: 30px 0px;
+    position: relative;
+}
+small{
+    color: hsl(0, 100%, 63%);
+    position: absolute;
+    bottom: -20px;
+    left: 30px;
+}
+
+footer{
+    color: rgba(255, 255, 255, 0.575);
+    background-color: hsl(216, 53%, 9%);
+    padding: 50px;
+    display: flex;
+}
+footer ul{
+    flex-direction: column;
+}
+footer div{
+    margin-right: 20px;
+    flex: 1;
+}
+.footer1{
+    width: 40%;
+}
+.icons{
+    border-radius: 50%;
+}
+.fabfa-facebook-f{
+    padding: 20px;
+}
